@@ -117,8 +117,8 @@
                     id: 'fav_gris',
                     nombre: 'Polerón Boxy Fit Gris',
                     precio: CONFIG.precio_poleron,
-                    imgFront: 'POLERON GRIS/Gris frente sin bolsillos pero con bordado.png',
-                    imgBack: 'POLERON GRIS/parte trasera con bordado.png',
+                    imgFront: 'Poleron GRIS/Gris frente sin bolsillos pero con bordado.png',
+                    imgBack: 'Poleron GRIS/parte trasera con bordado.png',
                     pedidoData: {
                         producto: 'poleron',
                         color: 'gris_melange',
@@ -312,19 +312,19 @@
                     // Lógica para el FRENTE
                     if (p.bordado_poleron === 'delantero' || p.bordado_poleron === 'ambos' || p.bordado_poleron === null) {
                         front = (p.bolsillos === 'con' || p.bolsillos === null)
-                            ? `POLERON GRIS/POLERON GRIS ENTERO.png`
-                            : `POLERON GRIS/Gris frente sin bolsillos pero con bordado.png`;
+                            ? `Poleron GRIS/POLERON GRIS ENTERO.png`
+                            : `Poleron GRIS/Gris frente sin bolsillos pero con bordado.png`;
                     } else {
                         front = (p.bolsillos === 'con' || p.bolsillos === null)
-                            ? `POLERON GRIS/gris frente sin bordado con bolsillos.png`
-                            : `POLERON GRIS/gris sin bordado y sin bolsillo.png`;
+                            ? `Poleron GRIS/gris frente sin bordado con bolsillos.png`
+                            : `Poleron GRIS/gris sin bordado y sin bolsillo.png`;
                     }
 
                     // Lógica para la ESPALDA
                     if (p.bordado_poleron === 'espalda' || p.bordado_poleron === 'ambos') {
-                        back = `POLERON GRIS/parte trasera con bordado.png`;
+                        back = `Poleron GRIS/parte trasera con bordado.png`;
                     } else {
-                        back = `POLERON GRIS/parte trasera SIN BORDADO.png`;
+                        back = `Poleron GRIS/parte trasera SIN BORDADO.png`;
                     }
 
                     // Solo dividir la pantalla en el paso de detalles
